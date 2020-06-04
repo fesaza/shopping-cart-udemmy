@@ -1,6 +1,5 @@
 import React from "react";
 import "./App.css";
-import Product from "./components/Product";
 import ProductList from "./components/ProductList";
 
 const productData = [
@@ -8,13 +7,13 @@ const productData = [
     id: 1,
     nombre: "Gafas de Sol",
     stock: 5,
-    fechaLanzamiento: new Date(2020, 5, 3),
+    fechaLanzamiento: new Date(2020, 5, 5),
   },
   {
     id: 2,
     nombre: "Camiseta Playera",
     stock: 5,
-    fechaLanzamiento: new Date(2020, 5, 4),
+    fechaLanzamiento: new Date(2020, 5, 6),
   },
   {
     id: 3,
